@@ -1,0 +1,14 @@
+C:\Users\RENO\source\repos\UserService\CLUserService\bin\Debug\net8.0\CLUserService.deps.json
+C:\Users\RENO\source\repos\UserService\CLUserService\bin\Debug\net8.0\CLUserService.runtimeconfig.json
+C:\Users\RENO\source\repos\UserService\CLUserService\bin\Debug\net8.0\CLUserService.dll
+C:\Users\RENO\source\repos\UserService\CLUserService\bin\Debug\net8.0\CLUserService.pdb
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.csproj.AssemblyReference.cache
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.AssemblyInfoInputs.cache
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.AssemblyInfo.cs
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.csproj.CoreCompileInputs.cache
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.dll
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\refint\CLUserService.dll
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.pdb
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\CLUserService.genruntimeconfig.cache
+C:\Users\RENO\source\repos\UserService\CLUserService\obj\Debug\net8.0\ref\CLUserService.dll
