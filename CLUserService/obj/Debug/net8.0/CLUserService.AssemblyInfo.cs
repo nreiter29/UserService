@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLUserService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49078fff7e35bfe26ea7199280f1e92095b62064")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLUserService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CLUserService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

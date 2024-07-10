@@ -1,0 +1,34 @@
+@page "/Register"
+@using CLUserService.DTO
+@using UserService.Models
+@inject UserService.UserService userService
+
+@rendermode InteractiveServer
+<h3>Register</h3>
+
+<EditForm Model="@userDTO" FormName="registerForm" OnValidSubmit="@submitButton">
+    <InputText id="username" @bind-Value="userDTO.Username" placeholder="Username"/>
+    <InputText id="password" @bind-Value="userDTO.PasswordHash" type="password" placeholder="Password"/>
+    <InputText id="role" placeholder="Role" @bind-Value="userDTO.Role"/>
+    <button type="submit">Register</button>
+</EditForm>
+
+@if (result == true)
+{
+    <p>Registration successful</p>
+}
+else if (result == false)
+{
+    <p>Registration failed</p>
+}
+
+@code {
+    private UserDTO userDTO = new UserDTO();
+    private bool? result;
+
+    private void submitButton()
+    {
+        result = userService.Register(userDTO.Username, userDTO.PasswordHash, userDTO.Role);
+    }
+
+}

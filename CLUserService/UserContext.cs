@@ -9,7 +9,7 @@ public class UserContext : DbContext
     {
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer(
-            "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=3APEC_UserContext;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            "Server=localhost,1433;User Id=sa;Password=viqsuj-danvyg-giqhE3;TrustServerCertificate=True;MultipleActiveResultSets=true");
     }
 
     public DbSet<User> Users { get; set; }

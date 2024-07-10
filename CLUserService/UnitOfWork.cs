@@ -23,6 +23,11 @@ namespace ClUserService
                 return null;
         }
 
+        public List<User> GetAll()
+        {
+            return _context.Users.Include(u => u.Roles).ToList();
+        }
+
         public void Add(User user)
         {
             _context.Users.Add(user);

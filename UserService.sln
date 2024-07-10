@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLUserService", "CLUserServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceApp", "UserServiceApp\UserServiceApp.csproj", "{3429EF31-5CB4-46A6-8467-8E8AAF54A2B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceWeb", "UserServiceWeb\UserServiceWeb\UserServiceWeb.csproj", "{72BB3AAE-4F6A-4F26-A1C9-B13E7204618E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceWeb.Client", "UserServiceWeb\UserServiceWeb.Client\UserServiceWeb.Client.csproj", "{17110029-D021-49A6-A1C1-371D07237A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3429EF31-5CB4-46A6-8467-8E8AAF54A2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3429EF31-5CB4-46A6-8467-8E8AAF54A2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3429EF31-5CB4-46A6-8467-8E8AAF54A2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BB3AAE-4F6A-4F26-A1C9-B13E7204618E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BB3AAE-4F6A-4F26-A1C9-B13E7204618E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BB3AAE-4F6A-4F26-A1C9-B13E7204618E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BB3AAE-4F6A-4F26-A1C9-B13E7204618E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17110029-D021-49A6-A1C1-371D07237A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17110029-D021-49A6-A1C1-371D07237A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17110029-D021-49A6-A1C1-371D07237A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17110029-D021-49A6-A1C1-371D07237A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

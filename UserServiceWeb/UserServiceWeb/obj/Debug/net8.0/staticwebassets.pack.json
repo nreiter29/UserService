@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/noah/APEC/UserService/UserServiceWeb/UserServiceWeb/obj/Debug/net8.0/scopedcss/projectbundle/UserServiceWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets/UserServiceWeb.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/noah/APEC/UserService/UserServiceWeb/UserServiceWeb/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/noah/APEC/UserService/UserServiceWeb/UserServiceWeb/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/noah/APEC/UserService/UserServiceWeb/UserServiceWeb/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/noah/APEC/UserService/UserServiceWeb/UserServiceWeb/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.UserServiceWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.UserServiceWeb.props",
+      "PackagePath": "build\\UserServiceWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.UserServiceWeb.props",
+      "PackagePath": "buildMultiTargeting\\UserServiceWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.UserServiceWeb.props",
+      "PackagePath": "buildTransitive\\UserServiceWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

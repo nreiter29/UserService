@@ -1,0 +1,33 @@
+@page "/login"
+@inject UserService.UserService userService
+@using UserService.Models
+
+@rendermode InteractiveServer
+
+<h3>Login</h3>
+
+<EditForm Model="@user" FormName="loginForm" OnValidSubmit="@submitButton">
+    <InputText id="username" @bind-Value="user.Username" placeholder="Username"/>
+    <InputText id="password" @bind-Value="user.PasswordHash" type="password" placeholder="Password"/>
+    <button type="submit">Login</button>
+</EditForm>
+
+@if (result == true)
+{
+    <p>Login successful</p>
+}
+else if (result == false)
+{
+    <p>Login failed</p>
+}
+
+@code {
+    private User user = new User();
+    private bool? result;
+
+    private void submitButton()
+    {
+        result = userService.Login(user.Username, user.PasswordHash);
+    }
+
+}
